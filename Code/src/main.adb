@@ -21,7 +21,9 @@ use MicroBit;
 procedure Main with Priority => 0 is
 
 begin
-   Put_Line (" <-- The zero means: Let's get started...");
+   Put_Line (" <-- AThe zero means: Let's get started...");
+   Put_Line (" <-- BThe zero means: Let's get started...");
+   Put_Line (" <-- CThe zero means: Let's get started...");
    loop
       null;
    end loop;
